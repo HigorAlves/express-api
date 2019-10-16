@@ -1,5 +1,8 @@
 # Express API Template
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-purple.svg)](https://conventionalcommits.org)
+![badge](https://img.shields.io/github/license/HigorAlves/express-api?style=flat-square)
+![issues](https://img.shields.io/github/issues/HigorAlves/express-api?style=flat-square)
+![version](https://img.shields.io/github/package-json/v/higoralves/express-api?style=flat-square)
+![lastcommit](https://img.shields.io/github/last-commit/higoralves/express-api?style=flat-square)
 
 Express API is an back-end service that can be deploy anywhere, with some default configuration its perfect to start an API and use in production.
 
