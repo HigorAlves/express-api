@@ -1,0 +1,69 @@
+[
+	{
+		"name": "production",
+		"type": "mysql",
+		"host": "localhost",
+		"port": 3306,
+		"username": "root",
+		"password": "password_pass",
+		"database": "production_database",
+		"synchronize": false,
+		"logging": false,
+		"migrationsRun": true,
+		"entities": [
+			"src/database/model/**/*.ts"
+		],
+		"migrations": [
+			"src/database/migration/**/*.ts"
+		],
+		"subscribers": [
+			"src/database/subscriber/**/*.ts"
+		],
+		"cli": {
+			"migrationsDir": "src/database/migration"
+		}
+	},
+	{
+		"name": "development",
+		"type": "mysql",
+		"host": "localhost",
+		"port": 3306,
+		"username": "root",
+		"password": "password_pass",
+		"database": "development_database",
+		"synchronize": false,
+		"logging": false,
+		"migrationsRun": true,
+		"entities": [
+			"src/database/model/**/*.ts"
+		],
+		"migrations": [
+			"src/database/migration/**/*.ts"
+		],
+		"subscribers": [
+			"src/database/subscriber/**/*.ts"
+		]
+	},
+	{
+		"name": "test",
+		"type": "mysql",
+		"host": "localhost",
+		"port": 3306,
+		"username": "root",
+		"password": "password_pass",
+		"database": "test_database",
+		"synchronize": true,
+		"dropSchema": true,
+		"logging": false,
+		"migrationsRun": true,
+		"entities": [
+			"src/database/model/**/*.ts"
+		],
+		"migrations": [
+			"src/database/migration/**/*.ts"
+		],
+		"subscribers": [
+			"src/database/subscriber/**/*.ts"
+		]
+	}
+]

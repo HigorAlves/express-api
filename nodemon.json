@@ -1,0 +1,9 @@
+{
+	"watch": [
+		"src"
+	],
+	"ext": "ts, hbs",
+	"execMap": {
+		"ts": "ts-node -r module-alias/register -r tsconfig-paths/register src/index.ts"
+	}
+}

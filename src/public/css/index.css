@@ -1,0 +1,30 @@
+html,
+body {
+	height: 100%;
+}
+a {
+	text-decoration: none;
+	color: #ffffff !important;
+}
+
+a:hover {
+	color: #ff93ff !important;
+	text-decoration: none;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.bg-login {
+	background-color: #ff93ff;
+	height: 100%;
+}
+
+.background-dark {
+	background-color: #1e1a28;
+	height: 100%;
+}

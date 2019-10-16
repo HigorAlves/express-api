@@ -1,0 +1,32 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"env": {
+		"es6": true,
+		"node": true,
+		"jest/globals": true
+	},
+	"extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier/@typescript-eslint", "standard"],
+	"plugins": ["jest"],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"rules": {
+		"singleQuote": 0,
+		"allowIndentationTabs": 0,
+		"indent": [2, "tab"],
+		"no-tabs": 0,
+		"linebreak-style": 0,
+		"@typescript-eslint/explicit-function-return-type": 0,
+		"@typescript-eslint/explicit-member-accessibility": 0,
+		"semi": 0,
+		"@typescript-eslint/no-var-requires": 0,
+		"@typescript-eslint/no-unused-vars": 0,
+		"no-unused-vars": "warn",
+		"@typescript-eslint/camelcase": 0
+	}
+}

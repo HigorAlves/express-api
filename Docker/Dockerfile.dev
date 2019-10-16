@@ -1,0 +1,16 @@
+FROM node:alpine
+MAINTAINER Higor Alves <higorhaalves@gmail.com>
+
+RUN mkdir -p /app
+WORKDIR /app
+
+# Install dependencies
+COPY package.json .
+RUN npm install --silent
+
+# Bundle app source
+COPY . .
+
+# Exports
+EXPOSE 4000
+CMD [ "npm", "run", "dev" ]

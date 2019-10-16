@@ -1,0 +1,26 @@
+Login Methods:
+	☐ E-mail/Passord
+	☐ By number
+	☐ Google
+	☐ Facebook
+	☐ Twitter
+	☐ Github
+	☐ Microsoft
+	☐ Anonymous
+
+Database:
+	User:
+		✔ Create user @done(19-08-20 14:25)
+		✔ Read account data @done(19-08-20 14:33)
+		☐ Update user
+		✔ Delete user account @done(19-08-20 14:25)
+	Plan:
+		☐ Create plan
+		☐ Read plan details
+		☐ Update a plan
+		☐ Delete plan
+
+Docker:
+	☐ Default Mysql Database
+	☐ Default Redis Database
+	☐ Default Mongo Database
